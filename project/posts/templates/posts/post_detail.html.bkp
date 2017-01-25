@@ -1,0 +1,6 @@
+{% load staticfiles %}
+<h1>{{ post.title}}</h1>
+<p>{{ post.content }}</p>
+<p>Reporter: {{ post.user }}</p>
+<p>Image:</p> <img src="{{ post.image.url }}" alt="Smiley face" height="300" width="300">
+<p>Published: {{ post.published }}</p>
